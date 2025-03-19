@@ -182,5 +182,5 @@ Name: Ayesha Banu
 
 Education: MSc in Computer Science (2024), Gold Medalist
 
-🔗 LinkedIn:[Ayesha Banu] https://www.linkedin.com/in/ayesha-banu-cs/  
+🔗 LinkedIn: https://www.linkedin.com/in/ayesha-banu-cs/  
 
