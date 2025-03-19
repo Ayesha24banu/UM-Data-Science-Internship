@@ -84,9 +84,13 @@ Then, open `http://127.0.0.1:5000` in your browser to access the prediction inte
 - **Model Training Error:** Ensure preprocessing was completed before training.
 - **Flask App Not Found:** Verify that `app.py` exists in the  directory.
 
-## Contributors
-- **Ayesha** (Project Lead)
+## Screenshorts of Output
 
+![Screenshot 2025-03-08 151440](https://github.com/user-attachments/assets/205966fa-1eb3-4433-844c-f11c60d3754a)
+
+![Screenshot 2025-03-08 151937](https://github.com/user-attachments/assets/409deca9-7bf3-4228-b25a-68c318e271ee)
+
+## 
 ## License
 This project is licensed under the MIT License.
 
