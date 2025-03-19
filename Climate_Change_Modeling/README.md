@@ -51,38 +51,38 @@ Climate_Change_Modeling/ ├── data/ │ ├── climate_nasa.csv # Raw da
 ## Usage:
 
 **Data Preprocessing:**
-Script: src/data_preprocessing.py
-Function: Converts the date, fills missing values, and cleans the dataset.
-Output: data/processed_climate_data.csv
+- Script: src/data_preprocessing.py
+- Function: Converts the date, fills missing values, and cleans the dataset.
+- Output: data/processed_climate_data.csv
 
 **Feature Engineering:**
-Script: src/feature_engineering.py
-Function: Creates new features like text_length and engagement (calculated as likesCount + commentsCount).
-Output: data/engineered_climate_data.csv
+- Script: src/feature_engineering.py
+- Function: Creates new features like text_length and engagement (calculated as likesCount + commentsCount).
+- Output: data/engineered_climate_data.csv
 
 **Model Training:**
-Script: src/ml_models.py
-Function: Trains Random Forest and XGBoost models using likesCount and commentsCount to predict text_length as a proxy for engagement.
-Output: Saved models in the models/ directory.
+- Script: src/ml_models.py
+- Function: Trains Random Forest and XGBoost models using likesCount and commentsCount to predict text_length as a proxy for engagement.
+- Output: Saved models in the models/ directory.
 
 **Model Evaluation:**
-Script: src/model_evaluation.py
-Function: Loads the engineered dataset and evaluates the trained models using MSE.
-Output: MSE scores printed in the console.
+- Script: src/model_evaluation.py
+- Function: Loads the engineered dataset and evaluates the trained models using MSE.
+- Output: MSE scores printed in the console.
 
 **Future Projections:**
-Script: src/future_projections.py
-Function: Uses the trained models to predict future engagement values based on future data.
-Output: data/future_predictions.csv
+- Script: src/future_projections.py
+- Function: Uses the trained models to predict future engagement values based on future data.
+- Output: data/future_predictions.csv
 
 **Web Dashboard:**
-Script: app.py
-Function: Interactive Streamlit dashboard to display EDA, model evaluation metrics, and future projections.
-How to Run: streamlit run app.py
+- Script: app.py
+- Function: Interactive Streamlit dashboard to display EDA, model evaluation metrics, and future projections.
+- How to Run: streamlit run app.py
 
 **Landing Page:**
-File: index.html
-Function: A basic HTML landing page linking to the Streamlit dashboard.
+- File: index.html
+- Function: A basic HTML landing page linking to the Streamlit dashboard.
 
 ## Screenshots of the output
 
