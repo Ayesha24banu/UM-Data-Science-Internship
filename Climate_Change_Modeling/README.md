@@ -84,7 +84,7 @@ How to Run: streamlit run app.py
 File: index.html
 Function: A basic HTML landing page linking to the Streamlit dashboard.
 
-**Screenshots of the output**
+## Screenshots of the output
 
 ![Screenshot 2025-03-09 201950](https://github.com/user-attachments/assets/c4aac6a0-fece-4a06-b8c7-642a14aea3b2)
 
