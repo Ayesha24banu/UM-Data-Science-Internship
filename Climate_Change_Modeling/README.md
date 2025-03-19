@@ -29,11 +29,12 @@ Climate_Change_Modeling/ ├── data/ │ ├── climate_nasa.csv # Raw da
    git clone https://github.com/yourusername/Climate_Change_Modeling.git
    cd Climate_Change_Modeling
 2. **Create and Activate Virtual Environment:**
-   python -m venv venv
-# Windows:
-venv\Scripts\activate
-# macOS/Linux:
-source venv/bin/activate
+    ```sh
+     python -m venv venv
+      Windows:
+     venv\Scripts\activate
+      macOS/Linux:
+     source venv/bin/activate
 3. **Install Dependencies:**
     ```sh
     pip install -r requirements.txt
@@ -82,12 +83,20 @@ How to Run: streamlit run app.py
 **Landing Page:**
 File: index.html
 Function: A basic HTML landing page linking to the Streamlit dashboard.
-Screenshots
 
-**Below are some screenshots of the output from the project (please replace the image paths with your actual screenshots):**
+**Screenshots of the output**
 
+![Screenshot 2025-03-09 201950](https://github.com/user-attachments/assets/c4aac6a0-fece-4a06-b8c7-642a14aea3b2)
 
-**Note:** Ensure these images are placed in the data/ folder (or update the paths accordingly).
+![Screenshot 2025-03-09 202027](https://github.com/user-attachments/assets/503e6f55-48fd-4647-96be-e875df954a89)
+
+![Screenshot 2025-03-09 202057](https://github.com/user-attachments/assets/f4e0096a-3b6f-4800-b84e-865f1af57e93)
+
+![Screenshot 2025-03-09 202118](https://github.com/user-attachments/assets/6c68c3e5-f207-4fed-bd46-324e36504122)
+
+![Screenshot 2025-03-09 202136](https://github.com/user-attachments/assets/6d476eac-6215-4a85-a19a-a9959c21a492)
+
+![Screenshot 2025-03-09 202156](https://github.com/user-attachments/assets/7b2122b0-1629-4c02-bb8b-a0735b6af535)
 
 ## License:
 This project is licensed under the MIT License. See the LICENSE file for details.
@@ -98,5 +107,4 @@ For any queries, please contact Ayesha at [ayesha24banu@gmail.com].
 ## Author Details:
 Name: Ayesha
 Education: MSc in Computer Science (2024), Gold Medalist
-Freelancing: Beginner in AI writing services on Fiverr
-Current Training: Data Science Course at TEKS Academy, Secunderabad
+Linkedin: https://www.linkedin.com/in/ayesha-banu-cs
