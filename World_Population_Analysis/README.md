@@ -73,10 +73,10 @@ The dataset used in this project contains world population data for different ye
 
 **📌 3. Machine Learning Models** (model.py)
 
-**Linear Regression** - Predicts population using a simple linear model.
-**Decision Tree** - Captures non-linear relationships in population growth.
-**Random Forest** - An ensemble method for better accuracy.
-**Support Vector Regression (SVR)** - Works well for small datasets with trends.
+- **Linear Regression** - Predicts population using a simple linear model.
+- **Decision Tree** - Captures non-linear relationships in population growth.
+- **Random Forest** - An ensemble method for better accuracy.
+- **Support Vector Regression (SVR)** - Works well for small datasets with trends.
 
 **📌 4. Model Evaluation** (evaluation.py)
 
@@ -92,10 +92,10 @@ The dataset used in this project contains world population data for different ye
 # 📊 Visualizations
 
 - The project includes various data visualizations, such as: 
-**✅ Histogram** - Population distribution across different years
-**✅ Scatter Plot** - Growth rate vs. population size
-**✅ Heatmap** - Correlation matrix between numerical variables
-**✅ Time Series Plot** - Population trends over time
+-  **✅ Histogram** - Population distribution across different years
+- **✅ Scatter Plot** - Growth rate vs. population size
+- **✅ Heatmap** - Correlation matrix between numerical variables
+- **✅ Time Series Plot** - Population trends over time
 
 ---
 
@@ -130,12 +130,12 @@ The dataset used in this project contains world population data for different ye
 
 # 📊 Features
 
-**✔ Data Preprocessing:** Cleans and prepares world population data
-**✔ Feature Engineering:** Creates new features for better predictions
-**✔ Exploratory Data Analysis:** Visualizes trends and patterns
-**✔ Model Training:** Trains multiple ML models for population prediction
-**✔ Model Evaluation:** Evaluates model performance using MSE & R² score
-**✔ Dashboard:** Provides interactive visualizations using Dash
+- **✔ Data Preprocessing:** Cleans and prepares world population data
+- **✔ Feature Engineering:** Creates new features for better predictions
+- **✔ Exploratory Data Analysis:** Visualizes trends and patterns
+- **✔ Model Training:** Trains multiple ML models for population prediction
+- **✔ Model Evaluation:** Evaluates model performance using MSE & R² score
+- **✔ Dashboard:** Provides interactive visualizations using Dash
 
 ---
 
@@ -147,9 +147,11 @@ The dataset used in this project contains world population data for different ye
 
 ---
 
-# 👨‍💻 Author
+# 👨‍💻 Author Details:
 
-👤 Ayesha Banu
-📧 ayesha24banu@gmail.com
+Name: Ayesha Banu
+
+Education: MSc in Computer Science (2024), Gold Medalist
+
 🔗 LinkedIn:[Ayesha Banu] https://www.linkedin.com/in/ayesha-banu-cs/  
 
