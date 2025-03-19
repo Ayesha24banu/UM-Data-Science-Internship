@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tobacco Mortality Prediction</title>
+</head>
+<body>
+    <h1>Tobacco Mortality Prediction</h1>
+    <form id="predictionForm">
+        <label for="year">Year:</label>
+        <input type="number" id="year" required><br><br>
+        
+        <label for="metric">Metric:</label>
+        <input type="number" id="metric" required><br><br>
+
+        <label for="duration">Tobacco Use Duration:</label>
+        <input type="number" id="duration" required><br><br>
+
+        <label for="affordability">Affordability Index:</label>
+        <input type="number" id="affordability" required><br><br>
+
+        <label for="population">Population Percentage:</label>
+        <input type="number" id="population" required><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('predictionForm').addEventListener('submit', async (event) => {
+            event.preventDefault();
+            
+            const data = {
+                Year: document.getElementById('year').value,
+                Metric: document.getElementById('metric').value,
+                "Tobacco Use Duration": document.getElementById('duration').value,
+                "Affordability Index": document.getElementById('affordability').value,
+                "Population Percentage": document.getElementById('population').value
+            };
+
+            const response = await fetch('/predict', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+
+            const result = await response.json();
+            document.getElementById('result').innerText = 
+                response.ok ? `Prediction: ${result.prediction}` : `Error: ${result.error}`;
+        });
+    </script>
+</body>
+</html>
