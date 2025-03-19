@@ -85,7 +85,12 @@ The **Supermart Sales Analytics Project** is designed to analyze sales data, unc
 
 ---
 
-🔗 **Author:** Ayesha Banu
+ # 👨‍💻 Author Details:
 
-**LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/)
+Name: Ayesha Banu
+
+Education: MSc in Computer Science (2024), Gold Medalist
+
+🔗 LinkedIn: https://www.linkedin.com/in/ayesha-banu-cs/  
+
 
