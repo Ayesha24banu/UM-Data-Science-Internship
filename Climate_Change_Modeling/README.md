@@ -101,10 +101,9 @@ Function: A basic HTML landing page linking to the Streamlit dashboard.
 ## License:
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Contact:
-For any queries, please contact Ayesha at [ayesha24banu@gmail.com].
-
 ## Author Details:
-Name: Ayesha
+Name: Ayesha Banu
+
 Education: MSc in Computer Science (2024), Gold Medalist
+
 Linkedin: https://www.linkedin.com/in/ayesha-banu-cs
